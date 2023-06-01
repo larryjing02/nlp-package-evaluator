@@ -1,0 +1,733 @@
+jingla/Documents/Code/CSE472/Project/StanfordPOS/eval.py
+2023-05-09 12:59:53 INFO: Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.5.0.json: 216kB [00:00, 111MB/s]
+2023-05-09 12:59:56 INFO: Loading these models for language: en (English):
+============================
+| Processor    | Package   |
+----------------------------
+| tokenize     | combined  |
+| pos          | combined  |
+| lemma        | combined  |
+| constituency | wsj       |
+| depparse     | combined  |
+| sentiment    | sstplus   |
+| ner          | ontonotes |
+============================
+
+2023-05-09 12:59:56 INFO: Using device: cpu
+2023-05-09 12:59:56 INFO: Loading: tokenize
+2023-05-09 12:59:56 INFO: Loading: pos
+2023-05-09 12:59:56 INFO: Loading: lemma
+2023-05-09 12:59:56 INFO: Loading: constituency
+2023-05-09 12:59:57 INFO: Loading: depparse
+2023-05-09 12:59:57 INFO: Loading: sentiment
+2023-05-09 12:59:57 INFO: Loading: ner
+2023-05-09 12:59:58 INFO: Done loading processors!
+[14] - Mismatch POS: United should be PROPN but package outputted VERB
+[23] - Mismatch POS: not should be ADV but package outputted PART
+[71] - Mismatch POS: about should be ADP but package outputted SCONJ
+[245] - Mismatch POS: Club should be NOUN but package outputted PROPN
+[269] - Mismatch POS: Rather should be ADV but package outputted SCONJ
+[457] - Mismatch POS: Census should be NOUN but package outputted PROPN
+[458] - Mismatch POS: Bureau should be NOUN but package outputted PROPN
+[485] - Mismatch POS: n’t should be ADV but package outputted PART
+[569] - Mismatch POS: III should be PROPN but package outputted NUM
+[604] - Mismatch POS: to should be ADP but package outputted PART
+[605] - Mismatch POS: jail should be NOUN but package outputted VERB
+[624] - Mismatch POS: Yazidi should be PROPN but package outputted ADJ
+[627] - Mismatch token: should be started but package outputted crying
+[628] - Mismatch token: should be crying but package outputted ,
+[629] - Mismatch token: should be , but package outputted then
+[630] - Mismatch token: should be then but package outputted one
+[631] - Mismatch token: should be one but package outputted of
+[632] - Mismatch token: should be of but package outputted her
+[633] - Mismatch token: should be her but package outputted friends
+[634] - Mismatch token: should be friends but package outputted .
+[643] - Mismatch POS: up should be PART but package outputted ADP
+[770] - Mismatch POS: South should be ADJ but package outputted PROPN
+[778] - Mismatch POS: was should be VERB but package outputted AUX
+[879] - Mismatch POS: something should be NOUN but package outputted PRON
+[920] - Mismatch token: should be wi-fi but package outputted wi
+[921] - Mismatch token: should be more but package outputted -
+[922] - Mismatch token: should be useful but package outputted fi
+[923] - Mismatch token: should be than but package outputted more
+[924] - Mismatch token: should be being but package outputted useful
+[925] - Mismatch token: should be able but package outputted than
+[926] - Mismatch token: should be to but package outputted being
+[927] - Mismatch token: should be send but package outputted able
+[928] - Mismatch token: should be emails but package outputted to
+[929] - Mismatch token: should be on but package outputted send
+[930] - Mismatch token: should be a but package outputted emails
+[931] - Mismatch token: should be plane but package outputted on
+[932] - Mismatch token: should be . but package outputted a
+[933] - Mismatch token: should be " but package outputted plane
+Weird line on 934: ['\n']
+Weird line on 935: ['# newdoc id = n01018\n']
+[1059] - Mismatch POS: for should be ADP but package outputted SCONJ
+[1096] - Mismatch POS: Hack should be VERB but package outputted PROPN
+[1097] - Mismatch POS: Forums should be NOUN but package outputted PROPN
+[1241] - Mismatch POS: will should be VERB but package outputted AUX
+[1347] - Mismatch POS: not should be ADV but package outputted PART
+[1433] - Mismatch POS: Space should be NOUN but package outputted PROPN
+[1434] - Mismatch POS: Station should be NOUN but package outputted PROPN
+[1630] - Mismatch POS: Not should be ADV but package outputted PART
+[1631] - Mismatch POS: everyone should be NOUN but package outputted PRON
+[1644] - Mismatch POS: someone should be NOUN but package outputted PRON
+[1649] - Mismatch POS: like should be ADP but package outputted INTJ
+[1685] - Mismatch POS: which should be DET but package outputted PRON
+[1780] - Mismatch POS: Associated should be PROPN but package outputted ADJ
+[1821] - Mismatch POS: not should be ADV but package outputted PART
+[1846] - Mismatch POS: after should be SCONJ but package outputted ADP
+[2017] - Mismatch POS: Hospitals should be NOUN but package outputted PROPN
+[2075] - Mismatch POS: there should be DET but package outputted PRON
+[2105] - Mismatch POS: United should be PROPN but package outputted VERB
+[2293] - Mismatch POS: Estate should be NOUN but package outputted PROPN
+[2294] - Mismatch POS: Council should be NOUN but package outputted PROPN
+[2316] - Mismatch POS: RECO should be PROPN but package outputted NOUN
+[2479] - Mismatch POS: 's should be VERB but package outputted AUX
+[2748] - Mismatch POS: - should be PUNCT but package outputted SYM
+[2782] - Mismatch POS: - should be PUNCT but package outputted SYM
+[2837] - Mismatch POS: least should be ADV but package outputted ADJ
+[2857] - Mismatch POS: be should be AUX but package outputted VERB
+[2912] - Mismatch POS: Senate should be NOUN but package outputted PROPN
+[3355] - Mismatch POS: in should be ADP but package outputted SCONJ
+[3422] - Mismatch POS: First should be PROPN but package outputted ADJ
+[3436] - Mismatch POS: is should be VERB but package outputted AUX
+[3480] - Mismatch POS: After should be ADV but package outputted ADP
+[3481] - Mismatch POS: all should be ADV but package outputted DET
+[3548] - Mismatch POS: someone should be NOUN but package outputted PRON
+[3552] - Mismatch POS: Party should be NOUN but package outputted PROPN
+[3561] - Mismatch POS: North should be ADJ but package outputted PROPN
+[3665] - Mismatch POS: n’t should be ADV but package outputted PART
+[3676] - Mismatch POS: Administrations should be NOUN but package outputted PROPN
+[3719] - Mismatch POS: n’t should be ADV but package outputted PART
+[3748] - Mismatch POS: something should be NOUN but package outputted PRON
+[3867] - Mismatch POS: Bass should be NOUN but package outputted PROPN
+[3874] - Mismatch POS: of should be ADP but package outputted SCONJ
+[3899] - Mismatch POS: Knuck should be VERB but package outputted PROPN
+[3931] - Mismatch POS: writhing should be VERB but package outputted NOUN
+[4000] - Mismatch POS: up should be ADP but package outputted ADV
+[4047] - Mismatch POS: nothing should be NOUN but package outputted PRON
+[4048] - Mismatch POS: else should be ADV but package outputted ADJ
+[4072] - Mismatch POS: typeset should be ADJ but package outputted NOUN
+[4076] - Mismatch POS: Zettel should be X but package outputted PROPN
+[4153] - Mismatch POS: not should be ADV but package outputted PART
+[4168] - Mismatch POS: British should be PROPN but package outputted ADJ
+[4169] - Mismatch POS: Ministry should be NOUN but package outputted PROPN
+[4171] - Mismatch POS: Defence should be NOUN but package outputted PROPN
+[4183] - Mismatch POS: military should be NOUN but package outputted ADJ
+[4199] - Mismatch POS: North should be ADJ but package outputted PROPN
+[4375] - Mismatch POS: south should be ADJ but package outputted ADV
+[4406] - Mismatch POS: World should be NOUN but package outputted PROPN
+[4407] - Mismatch POS: Service should be NOUN but package outputted PROPN
+[4477] - Mismatch POS: as should be ADP but package outputted SCONJ
+[4577] - Mismatch POS: someone should be NOUN but package outputted PRON
+[4591] - Mismatch POS: was should be VERB but package outputted AUX
+[4619] - Mismatch POS: Rugby should be NOUN but package outputted PROPN
+[4620] - Mismatch POS: Championship should be NOUN but package outputted PROPN
+[4653] - Mismatch POS: Mrs should be NOUN but package outputted PROPN
+[4730] - Mismatch POS: course should be ADV but package outputted NOUN
+[4755] - Mismatch POS: is should be VERB but package outputted AUX
+[4811] - Mismatch POS: New should be PROPN but package outputted ADJ
+[4814] - Mismatch POS: Health should be NOUN but package outputted PROPN
+[4816] - Mismatch POS: Hospitals should be NOUN but package outputted PROPN
+[4817] - Mismatch POS: Corporation should be NOUN but package outputted PROPN
+[4824] - Mismatch POS: Business should be NOUN but package outputted PROPN
+[4825] - Mismatch POS: School should be NOUN but package outputted PROPN
+[4871] - Mismatch POS: n’t should be ADV but package outputted PART
+[4880] - Mismatch POS: someone should be NOUN but package outputted PRON
+[4894] - Mismatch POS: chief should be ADJ but package outputted NOUN
+[4934] - Mismatch POS: is should be VERB but package outputted AUX
+[4985] - Mismatch POS: – should be PUNCT but package outputted SYM
+[5075] - Mismatch POS: Sulphur should be NOUN but package outputted PROPN
+[5128] - Mismatch POS: silver should be NOUN but package outputted ADJ
+[5144] - Mismatch POS: at should be ADV but package outputted ADP
+[5145] - Mismatch POS: least should be ADV but package outputted ADJ
+[5146] - Mismatch POS: someone should be NOUN but package outputted PRON
+[5214] - Mismatch POS: ’s should be VERB but package outputted AUX
+[5249] - Mismatch POS: School should be NOUN but package outputted PROPN
+[5251] - Mismatch POS: Art should be NOUN but package outputted PROPN
+[5278] - Mismatch POS: University should be NOUN but package outputted PROPN
+[5358] - Mismatch POS: more should be ADV but package outputted ADJ
+[5645] - Mismatch POS: Irish should be PROPN but package outputted ADJ
+[5646] - Mismatch POS: Seas should be NOUN but package outputted PROPN
+[5810] - Mismatch POS: least should be ADV but package outputted ADJ
+[5851] - Mismatch POS: long should be ADJ but package outputted ADV
+[5907] - Mismatch POS: glides should be NOUN but package outputted VERB
+[5920] - Mismatch POS: capped should be ADJ but package outputted VERB
+[5959] - Mismatch POS: am should be ADV but package outputted NOUN
+[6033] - Mismatch POS: People should be NOUN but package outputted PROPN
+[6035] - Mismatch POS: Republic should be NOUN but package outputted PROPN
+[6128] - Mismatch POS: that should be DET but package outputted PRON
+[6171] - Mismatch POS: is should be ADP but package outputted AUX
+[6223] - Mismatch POS: everything should be NOUN but package outputted PRON
+[6248] - Mismatch POS: Cup should be NOUN but package outputted PROPN
+[6321] - Mismatch POS: chief should be NOUN but package outputted ADJ
+[6511] - Mismatch POS: Energy should be NOUN but package outputted PROPN
+[6588] - Mismatch POS: Bonds should be NOUN but package outputted PROPN
+[6593] - Mismatch POS: National should be PROPN but package outputted ADJ
+[6635] - Mismatch POS: Multi should be NOUN but package outputted ADJ
+[6640] - Mismatch POS: Income should be PROPN but package outputted NOUN
+[6729] - Mismatch POS: plastic should be ADJ but package outputted NOUN
+[6754] - Mismatch POS: genius should be ADJ but package outputted NOUN
+[6861] - Mismatch POS: better should be ADJ but package outputted ADV
+[6885] - Mismatch POS: / should be CCONJ but package outputted PUNCT
+[6930] - Mismatch token: should be vein but package outputted vein-
+[6931] - Mismatch token: should be - but package outputted accentuating
+[6932] - Mismatch token: should be accentuating but package outputted confrontation
+[6933] - Mismatch token: should be confrontation but package outputted ,
+[6934] - Mismatch token: should be , but package outputted her
+[6935] - Mismatch token: should be her but package outputted hands
+[6936] - Mismatch token: should be hands but package outputted shake
+[6937] - Mismatch token: should be shake but package outputted .
+[7023] - Mismatch POS: Cinema should be NOUN but package outputted PROPN
+[7083] - Mismatch POS: that should be SCONJ but package outputted PRON
+[7091] - Mismatch POS: viewing should be VERB but package outputted NOUN
+[7230] - Mismatch POS: outside should be ADP but package outputted ADV
+[7296] - Mismatch POS: n’t should be ADV but package outputted PART
+[7301] - Mismatch POS: n’t should be ADV but package outputted PART
+[7316] - Mismatch POS: Seventies should be NOUN but package outputted PROPN
+[7324] - Mismatch POS: is should be ADP but package outputted AUX
+[7337] - Mismatch POS: South should be ADJ but package outputted PROPN
+[7338] - Mismatch POS: Bank should be NOUN but package outputted PROPN
+[7339] - Mismatch POS: Tower should be NOUN but package outputted PROPN
+[7436] - Mismatch POS: composed should be ADJ but package outputted VERB
+[7453] - Mismatch POS: of should be SCONJ but package outputted ADP
+[7519] - Mismatch POS: for should be ADP but package outputted SCONJ
+[7578] - Mismatch POS: nothing should be NOUN but package outputted PRON
+[7581] - Mismatch POS: registered should be ADJ but package outputted VERB
+[7599] - Mismatch POS: contested should be ADJ but package outputted VERB
+[7647] - Mismatch POS: United should be PROPN but package outputted VERB
+[7716] - Mismatch POS: Game should be NOUN but package outputted PROPN
+[7718] - Mismatch POS: Thrones should be NOUN but package outputted PROPN
+[7736] - Mismatch POS: acclaimed should be ADJ but package outputted VERB
+[7744] - Mismatch POS: Winds should be NOUN but package outputted PROPN
+[7746] - Mismatch POS: Winter should be NOUN but package outputted PROPN
+[7848] - Mismatch POS: with should be ADP but package outputted SCONJ
+[7875] - Mismatch POS: Environmental should be NOUN but package outputted ADJ
+[7876] - Mismatch POS: Protection should be NOUN but package outputted PROPN
+[7877] - Mismatch POS: Agency should be NOUN but package outputted PROPN
+[7909] - Mismatch POS: Brands should be NOUN but package outputted PROPN
+[7922] - Mismatch POS: Union should be NOUN but package outputted PROPN
+[7939] - Mismatch POS: Supreme should be PROPN but package outputted ADJ
+[7969] - Mismatch POS: Loving should be PROPN but package outputted ADJ
+[7972] - Mismatch POS: with should be SCONJ but package outputted ADP
+[8014] - Mismatch POS: Things should be NOUN but package outputted PROPN
+[8096] - Mismatch POS: after should be NOUN but package outputted ADP
+[8097] - Mismatch POS: show should be X but package outputted NOUN
+[8182] - Mismatch POS: tech should be ADJ but package outputted NOUN
+[8247] - Mismatch POS: for should be ADP but package outputted SCONJ
+[8412] - Mismatch POS: where should be PRON but package outputted ADV
+[8423] - Mismatch POS: on should be ADP but package outputted SCONJ
+[8453] - Mismatch POS: anything should be NOUN but package outputted PRON
+[8454] - Mismatch POS: of should be SCONJ but package outputted ADP
+[8463] - Mismatch POS: back should be NOUN but package outputted ADV
+[8497] - Mismatch POS: been should be VERB but package outputted AUX
+[8512] - Mismatch POS: Carnival should be NOUN but package outputted PROPN
+[8639] - Mismatch POS: Marina should be NOUN but package outputted PROPN
+[8640] - Mismatch POS: Circuit should be NOUN but package outputted PROPN
+[8650] - Mismatch POS: anyone should be NOUN but package outputted PRON
+[8699] - Mismatch POS: Not should be ADV but package outputted PART
+[8724] - Mismatch POS: Metro should be NOUN but package outputted PROPN
+[8836] - Mismatch POS: meaning should be VERB but package outputted NOUN
+[8958] - Mismatch POS: Universiade should be NOUN but package outputted PROPN
+[8982] - Mismatch POS: Indian should be PROPN but package outputted ADJ
+[8988] - Mismatch POS: Granite should be NOUN but package outputted ADJ
+[9064] - Mismatch POS: Megarian should be ADJ but package outputted PROPN
+[9092] - Mismatch POS: Achaemenid should be ADJ but package outputted PROPN
+[9137] - Mismatch POS: Achaemenid should be ADJ but package outputted PROPN
+[9145] - Mismatch POS: Achaemenid should be ADJ but package outputted PROPN
+[9176] - Mismatch token: should be founded but package outputted the
+[9177] - Mismatch token: should be the but package outputted first
+[9178] - Mismatch token: should be first but package outputted film
+[9179] - Mismatch token: should be film but package outputted company
+[9180] - Mismatch token: should be company but package outputted (
+[9181] - Mismatch token: should be ( but package outputted Athina
+[9182] - Mismatch token: should be Athina but package outputted Film
+[9183] - Mismatch token: should be Film but package outputted )
+[9184] - Mismatch token: should be ) but package outputted and
+[9185] - Mismatch token: should be and but package outputted in
+[9186] - Mismatch token: should be in but package outputted 1916
+[9187] - Mismatch token: should be 1916 but package outputted the
+[9188] - Mismatch token: should be the but package outputted Asty
+[9189] - Mismatch token: should be Asty but package outputted Film
+[9190] - Mismatch token: should be Film but package outputted .
+[9222] - Mismatch POS: Treaty should be NOUN but package outputted PROPN
+[9245] - Mismatch POS: State should be NOUN but package outputted PROPN
+[9256] - Mismatch POS: five should be ADJ but package outputted NUM
+[9308] - Mismatch POS: Northern should be PROPN but package outputted ADJ
+[9404] - Mismatch POS: Migration should be NOUN but package outputted PROPN
+[9436] - Mismatch POS: day should be ADJ but package outputted NOUN
+[9437] - Mismatch POS: south should be ADJ but package outputted NOUN
+[9444] - Mismatch POS: south should be ADJ but package outputted PROPN
+[9466] - Mismatch POS: Great should be PROPN but package outputted ADJ
+[9473] - Mismatch POS: Principality should be NOUN but package outputted PROPN
+[9495] - Mismatch token: should be – but package outputted –846
+[9496] - Mismatch token: should be 846 but package outputted )
+[9497] - Mismatch token: should be ) but package outputted .
+[9592] - Mismatch token: should be known but package outputted as
+[9593] - Mismatch token: should be as but package outputted Meänkieli
+[9594] - Mismatch token: should be Meänkieli but package outputted in
+[9595] - Mismatch token: should be in but package outputted Sweden
+[9596] - Mismatch token: should be Sweden but package outputted and
+[9597] - Mismatch token: should be and but package outputted Kven
+[9598] - Mismatch token: should be Kven but package outputted in
+[9599] - Mismatch token: should be in but package outputted Norway
+[9600] - Mismatch token: should be Norway but package outputted .
+[9612] - Mismatch POS: Finnish should be PROPN but package outputted ADJ
+[9624] - Mismatch POS: south should be ADJ but package outputted PROPN
+[9649] - Mismatch token: should be known but package outputted as
+[9650] - Mismatch token: should be as but package outputted the
+[9651] - Mismatch token: should be the but package outputted Ciscaucasus
+[9652] - Mismatch token: should be Ciscaucasus but package outputted and
+[9653] - Mismatch token: should be and but package outputted the
+[9654] - Mismatch token: should be the but package outputted southern
+[9655] - Mismatch token: should be southern but package outputted portion
+[9656] - Mismatch token: should be portion but package outputted as
+[9657] - Mismatch token: should be as but package outputted the
+[9658] - Mismatch token: should be the but package outputted Transcaucasus
+[9659] - Mismatch token: should be Transcaucasus but package outputted .
+[9731] - Mismatch POS: Olympic should be NOUN but package outputted PROPN
+[9732] - Mismatch POS: Games should be NOUN but package outputted PROPN
+[9748] - Mismatch POS: East should be ADJ but package outputted PROPN
+[9842] - Mismatch POS: Southern should be PROPN but package outputted ADJ
+[9852] - Mismatch POS: Republic should be NOUN but package outputted PROPN
+[9866] - Mismatch POS: Forms should be NOUN but package outputted PROPN
+[9876] - Mismatch POS: aged should be VERB but package outputted ADJ
+[10004] - Mismatch POS: Due should be ADJ but package outputted ADP
+[10086] - Mismatch POS: Mare should be X but package outputted PROPN
+[10087] - Mismatch POS: Nostrum should be X but package outputted PROPN
+[10091] - Mismatch POS: Sea should be NOUN but package outputted PROPN
+[10105] - Mismatch POS: protected should be ADJ but package outputted VERB
+[10180] - Mismatch POS: Whatever should be DET but package outputted PRON
+[10224] - Mismatch POS: south should be ADJ but package outputted ADV
+[10248] - Mismatch POS: Austro should be ADJ but package outputted PROPN
+[10331] - Mismatch POS: General should be NOUN but package outputted PROPN
+[10336] - Mismatch POS: relieved should be ADJ but package outputted VERB
+[10384] - Mismatch POS: Delta should be NOUN but package outputted PROPN
+[10457] - Mismatch POS: not should be ADV but package outputted PART
+[10465] - Mismatch POS: Northern should be PROPN but package outputted ADJ
+[10491] - Mismatch POS: River should be NOUN but package outputted PROPN
+[10498] - Mismatch POS: River should be NOUN but package outputted PROPN
+[10540] - Mismatch POS: divided should be ADJ but package outputted VERB
+[10564] - Mismatch POS: yellowish should be NUM but package outputted ADJ
+[10609] - Mismatch POS: Palm should be NOUN but package outputted PROPN
+[10619] - Mismatch POS: lowland should be NOUN but package outputted ADJ
+[10659] - Mismatch POS: lowland should be NOUN but package outputted ADJ
+[10767] - Mismatch POS: Adriatic should be PROPN but package outputted ADJ
+[10771] - Mismatch POS: Black should be PROPN but package outputted ADJ
+[10811] - Mismatch POS: not should be ADV but package outputted PART
+[10989] - Mismatch POS: least should be ADV but package outputted ADJ
+[11007] - Mismatch POS: surrounding should be ADJ but package outputted VERB
+[11131] - Mismatch POS: Atlantic should be PROPN but package outputted ADJ
+[11240] - Mismatch POS: was should be VERB but package outputted AUX
+[11275] - Mismatch POS: no should be DET but package outputted ADV
+[11293] - Mismatch POS: Year should be NOUN but package outputted PROPN
+[11296] - Mismatch POS: River should be NOUN but package outputted PROPN
+[11300] - Mismatch POS: Lord should be NOUN but package outputted PROPN
+[11301] - Mismatch POS: Mayor should be NOUN but package outputted PROPN
+[11331] - Mismatch POS: not should be ADV but package outputted PART
+[11495] - Mismatch POS: west should be ADJ but package outputted ADV
+[11565] - Mismatch POS: Native should be PROPN but package outputted ADJ
+[11566] - Mismatch POS: American should be PROPN but package outputted ADJ
+[11692] - Mismatch POS: Caribbean should be PROPN but package outputted ADJ
+[11708] - Mismatch POS: Caribbean should be PROPN but package outputted ADJ
+[11771] - Mismatch POS: City should be NOUN but package outputted PROPN
+[11857] - Mismatch POS: to should be ADP but package outputted PART
+[11858] - Mismatch POS: select should be ADJ but package outputted VERB
+[11876] - Mismatch POS: chemical should be NOUN but package outputted ADJ
+[11929] - Mismatch POS: Korean should be PROPN but package outputted ADJ
+[11972] - Mismatch POS: Park should be NOUN but package outputted PROPN
+[11982] - Mismatch POS: second should be ADJ but package outputted ADV
+[11993] - Mismatch POS: foremost should be ADV but package outputted ADJ
+[12068] - Mismatch POS: President should be NOUN but package outputted PROPN
+[12071] - Mismatch POS: Republic should be NOUN but package outputted PROPN
+[12147] - Mismatch POS: Outer should be PROPN but package outputted ADJ
+[12259] - Mismatch POS: earlier should be ADJ but package outputted ADV
+[12341] - Mismatch POS: New should be PROPN but package outputted ADJ
+[12434] - Mismatch POS: New should be PROPN but package outputted ADJ
+[12512] - Mismatch POS: War should be NOUN but package outputted PROPN
+[12676] - Mismatch POS: Dynasty should be NOUN but package outputted PROPN
+[12793] - Mismatch POS: on should be ADP but package outputted SCONJ
+[12859] - Mismatch POS: standing should be ADJ but package outputted NOUN
+[12867] - Mismatch POS: north should be ADV but package outputted PROPN
+[12869] - Mismatch POS: south should be ADV but package outputted PROPN
+[12925] - Mismatch POS: Middle should be PROPN but package outputted ADJ
+[12931] - Mismatch token: should be B.C.E. but package outputted B.C.E
+Weird line on 12932: ['\n']
+[12936] - Mismatch POS: Canaanite should be ADJ but package outputted PROPN
+[12969] - Mismatch POS: is should be VERB but package outputted AUX
+[12999] - Mismatch POS: BCE should be NOUN but package outputted ADV
+[13059] - Mismatch POS: Monkey should be NOUN but package outputted PROPN
+[13064] - Mismatch POS: sixtieth should be ADJ but package outputted NOUN
+[13108] - Mismatch POS: New should be NOUN but package outputted ADJ
+[13109] - Mismatch POS: Year should be NOUN but package outputted PROPN
+[13150] - Mismatch POS: Walls should be NOUN but package outputted PROPN
+[13153] - Mismatch POS: Ruler should be NOUN but package outputted PROPN
+[13340] - Mismatch POS: Empire should be NOUN but package outputted PROPN
+[13374] - Mismatch POS: around should be ADV but package outputted ADP
+[13479] - Mismatch POS: Post should be NOUN but package outputted PROPN
+[13515] - Mismatch POS: upon should be ADP but package outputted SCONJ
+[13518] - Mismatch POS: at should be ADV but package outputted ADP
+[13848] - Mismatch POS: forgone should be VERB but package outputted ADJ
+[13967] - Mismatch POS: Middle should be PROPN but package outputted ADJ
+[14023] - Mismatch POS: Archbishop should be NOUN but package outputted PROPN
+[14041] - Mismatch POS: everything should be NOUN but package outputted PRON
+[14049] - Mismatch POS: Forced should be ADJ but package outputted VERB
+[14059] - Mismatch POS: Church should be NOUN but package outputted PROPN
+[14063] - Mismatch POS: anybody should be NOUN but package outputted PRON
+[14306] - Mismatch POS: First should be PROPN but package outputted ADJ
+[14358] - Mismatch POS: Army should be NOUN but package outputted PROPN
+[14423] - Mismatch POS: United should be PROPN but package outputted ADJ
+[14448] - Mismatch POS: United should be PROPN but package outputted VERB
+[14540] - Mismatch POS: been should be VERB but package outputted AUX
+[14589] - Mismatch POS: were should be AUX but package outputted VERB
+[14603] - Mismatch POS: grazing should be NOUN but package outputted VERB
+[14715] - Mismatch POS: Industrial should be PROPN but package outputted ADJ
+[14733] - Mismatch POS: Second should be PROPN but package outputted ADJ
+[14783] - Mismatch POS: American should be PROPN but package outputted ADJ
+[14813] - Mismatch POS: relaxed should be VERB but package outputted ADJ
+[14904] - Mismatch POS: Emperor should be NOUN but package outputted PROPN
+[14923] - Mismatch POS: Emperors should be NOUN but package outputted PROPN
+[14939] - Mismatch POS: Emperor should be NOUN but package outputted PROPN
+[14943] - Mismatch POS: Emperors should be NOUN but package outputted PROPN
+[14954] - Mismatch POS: whilst should be ADP but package outputted SCONJ
+[15034] - Mismatch POS: I should be PROPN but package outputted NUM
+[15104] - Mismatch POS: Southasian should be ADJ but package outputted PROPN
+[15105] - Mismatch POS: Ancestry should be NOUN but package outputted PROPN
+[15109] - Mismatch POS: North should be ADJ but package outputted PROPN
+[15111] - Mismatch POS: West should be ADJ but package outputted PROPN
+[15136] - Mismatch POS: both should be CCONJ but package outputted DET
+[15165] - Mismatch POS: First should be PROPN but package outputted ADJ
+[15169] - Mismatch POS: Great should be PROPN but package outputted ADJ
+[15173] - Mismatch POS: Governor should be NOUN but package outputted PROPN
+[15246] - Mismatch POS: Second should be PROPN but package outputted ADJ
+[15314] - Mismatch POS: military should be NOUN but package outputted ADJ
+[15326] - Mismatch POS: improved should be ADJ but package outputted VERB
+[15340] - Mismatch POS: carbonated should be ADJ but package outputted VERB
+[15475] - Mismatch token: should be B-29s but package outputted B
+[15476] - Mismatch token: should be were but package outputted -
+[15477] - Mismatch token: should be equipped but package outputted 29s
+[15478] - Mismatch token: should be with but package outputted were
+[15479] - Mismatch token: should be Eagle but package outputted equipped
+[15480] - Mismatch token: should be and but package outputted with
+[15481] - Mismatch token: should be it but package outputted Eagle
+[15482] - Mismatch token: should be worked but package outputted and
+[15483] - Mismatch token: should be well but package outputted it
+[15484] - Mismatch token: should be , but package outputted worked
+[15485] - Mismatch token: should be it but package outputted well
+[15486] - Mismatch token: should be came but package outputted ,
+[15487] - Mismatch token: should be too but package outputted it
+[15488] - Mismatch token: should be late but package outputted came
+[15489] - Mismatch token: should be to but package outputted too
+[15490] - Mismatch token: should be make but package outputted late
+[15491] - Mismatch token: should be much but package outputted to
+[15492] - Mismatch token: should be difference but package outputted make
+[15493] - Mismatch token: should be . but package outputted much
+Weird line on 15494: ['\n']
+Weird line on 15495: ['# sent_id = w01105054\n']
+[15563] - Mismatch POS: landing should be VERB but package outputted NOUN
+[15648] - Mismatch POS: Alliance should be NOUN but package outputted PROPN
+[15651] - Mismatch POS: Forces should be NOUN but package outputted PROPN
+[15654] - Mismatch POS: Liberation should be NOUN but package outputted PROPN
+[15947] - Mismatch POS: sized should be ADJ but package outputted VERB
+[15987] - Mismatch token: should be built but package outputted and
+[15988] - Mismatch token: should be and but package outputted renovated
+[15989] - Mismatch token: should be renovated but package outputted five
+[15990] - Mismatch token: should be five but package outputted traditional
+[15991] - Mismatch token: should be traditional but package outputted markets
+[15992] - Mismatch token: should be markets but package outputted in
+[15993] - Mismatch token: should be in but package outputted 2013
+[15994] - Mismatch token: should be 2013 but package outputted and
+[15995] - Mismatch token: should be and but package outputted four
+[15996] - Mismatch token: should be four but package outputted traditional
+[15997] - Mismatch token: should be traditional but package outputted markets
+[15998] - Mismatch token: should be markets but package outputted in
+[15999] - Mismatch token: should be in but package outputted 2014
+[16000] - Mismatch token: should be 2014 but package outputted .
+[16023] - Mismatch POS: Prior should be SCONJ but package outputted ADV
+[16105] - Mismatch POS: University should be NOUN but package outputted PROPN
+[16127] - Mismatch POS: M.A. should be NOUN but package outputted PROPN
+[16198] - Mismatch POS: Power should be NOUN but package outputted PROPN
+[16369] - Mismatch POS: well should be ADJ but package outputted ADV
+[16490] - Mismatch POS: Billboard should be NOUN but package outputted PROPN
+[16497] - Mismatch token: should be 'Ya but package outputted '
+[16498] - Mismatch token: should be Knew but package outputted Ya
+[16499] - Mismatch token: should be climbed but package outputted Knew
+[16500] - Mismatch token: should be to but package outputted climbed
+[16501] - Mismatch token: should be No. but package outputted to
+[16502] - Mismatch token: should be 31 but package outputted No.
+[16503] - Mismatch token: should be in but package outputted 31
+[16504] - Mismatch token: should be the but package outputted in
+[16505] - Mismatch token: should be UK but package outputted the
+[16506] - Mismatch token: should be , but package outputted UK
+[16507] - Mismatch token: should be but but package outputted ,
+[16508] - Mismatch token: should be the but package outputted but
+[16509] - Mismatch token: should be album but package outputted the
+[16510] - Mismatch token: should be charted but package outputted album
+[16511] - Mismatch token: should be for but package outputted charted
+[16512] - Mismatch token: should be only but package outputted for
+[16513] - Mismatch token: should be two but package outputted only
+[16514] - Mismatch token: should be weeks but package outputted two
+[16515] - Mismatch token: should be in but package outputted weeks
+[16516] - Mismatch token: should be the but package outputted in
+[16517] - Mismatch token: should be UK but package outputted the
+[16518] - Mismatch token: should be . but package outputted UK
+Weird line on 16519: ['\n']
+[16533] - Mismatch POS: Witch should be NOUN but package outputted PROPN
+[16554] - Mismatch POS: more should be ADV but package outputted ADJ
+[16592] - Mismatch POS: Lord should be NOUN but package outputted PROPN
+[16628] - Mismatch POS: by should be ADP but package outputted SCONJ
+[16645] - Mismatch POS: Prince should be NOUN but package outputted PROPN
+[16680] - Mismatch POS: Wild should be ADJ but package outputted PROPN
+[16819] - Mismatch POS: Cup should be NOUN but package outputted PROPN
+[16864] - Mismatch POS: Wing should be NOUN but package outputted PROPN
+[16867] - Mismatch POS: Prayer should be NOUN but package outputted PROPN
+[16928] - Mismatch POS: Father should be NOUN but package outputted PROPN
+[16929] - Mismatch token: should be Did but package outputted Didn't
+[16930] - Mismatch token: should be n't but package outputted Like
+[16931] - Mismatch token: should be Like but package outputted Me
+[16932] - Mismatch token: should be Me but package outputted Anyway
+[16933] - Mismatch token: should be Anyway but package outputted "
+[16934] - Mismatch token: should be " but package outputted on
+[16935] - Mismatch token: should be on but package outputted the
+[16936] - Mismatch token: should be the but package outputted album
+[16937] - Mismatch token: should be album but package outputted Over
+[16938] - Mismatch token: should be Over but package outputted My
+[16939] - Mismatch token: should be My but package outputted Head
+[16940] - Mismatch token: should be Head but package outputted (
+[16941] - Mismatch token: should be ( but package outputted 1994
+[16942] - Mismatch token: should be 1994 but package outputted )
+[16943] - Mismatch token: should be ) but package outputted .
+[16979] - Mismatch POS: involved should be VERB but package outputted ADJ
+[17154] - Mismatch POS: Star should be NOUN but package outputted PROPN
+[17257] - Mismatch POS: Salmon should be NOUN but package outputted PROPN
+[17258] - Mismatch POS: Fishing should be NOUN but package outputted PROPN
+[17310] - Mismatch POS: Year should be NOUN but package outputted PROPN
+[17416] - Mismatch POS: President should be NOUN but package outputted PROPN
+[17419] - Mismatch POS: Council should be NOUN but package outputted PROPN
+[17499] - Mismatch POS: alone should be ADV but package outputted ADJ
+[17509] - Mismatch token: should be out but package outputted on
+[17510] - Mismatch token: should be on but package outputted the
+[17511] - Mismatch token: should be the but package outputted streets
+[17512] - Mismatch token: should be streets but package outputted or
+[17513] - Mismatch token: should be or but package outputted at
+[17514] - Mismatch token: should be at but package outputted the
+[17515] - Mismatch token: should be the but package outputted club
+[17516] - Mismatch token: should be club but package outputted singing
+[17517] - Mismatch token: should be singing but package outputted .
+[17634] - Mismatch token: should be alpha but package outputted alpha-emissions
+[17635] - Mismatch token: should be - but package outputted .
+[17700] - Mismatch POS: off should be ADJ but package outputted NOUN
+[17738] - Mismatch POS: shocking should be ADJ but package outputted VERB
+[17815] - Mismatch POS: Not should be ADV but package outputted PART
+[17893] - Mismatch POS: President should be NOUN but package outputted PROPN
+[17981] - Mismatch POS: on should be ADV but package outputted ADP
+[17994] - Mismatch POS: concerned should be VERB but package outputted ADJ
+[18073] - Mismatch POS: when should be SCONJ but package outputted ADV
+[18087] - Mismatch POS: that should be DET but package outputted PRON
+[18218] - Mismatch POS: Hitchhiker should be NOUN but package outputted PROPN
+[18220] - Mismatch POS: Guide should be NOUN but package outputted PROPN
+[18223] - Mismatch POS: Galaxy should be NOUN but package outputted PROPN
+[18225] - Mismatch POS: Son should be NOUN but package outputted PROPN
+[18234] - Mismatch POS: Great should be PROPN but package outputted ADJ
+[18264] - Mismatch POS: Great should be PROPN but package outputted ADJ
+[18287] - Mismatch POS: Ottoman should be PROPN but package outputted ADJ
+[18303] - Mismatch POS: Ottoman should be PROPN but package outputted ADJ
+[18318] - Mismatch POS: Great should be PROPN but package outputted ADJ
+[18455] - Mismatch POS: record should be NOUN but package outputted ADJ
+[18484] - Mismatch POS: by should be ADV but package outputted ADP
+[18561] - Mismatch POS: One should be NOUN but package outputted NUM
+[18589] - Mismatch POS: at should be ADV but package outputted ADP
+[18590] - Mismatch POS: all should be ADV but package outputted DET
+[18609] - Mismatch POS: Secret should be NOUN but package outputted PROPN
+[18712] - Mismatch POS: not should be ADV but package outputted PART
+[18828] - Mismatch POS: least should be ADV but package outputted ADJ
+[18843] - Mismatch POS: hit should be NOUN but package outputted VERB
+[18884] - Mismatch POS: is should be VERB but package outputted AUX
+[19016] - Mismatch POS: Australian should be PROPN but package outputted ADJ
+[19102] - Mismatch POS: resting should be VERB but package outputted NOUN
+[19220] - Mismatch POS: East should be ADJ but package outputted PROPN
+[19232] - Mismatch POS: over should be ADJ but package outputted ADV
+[19276] - Mismatch POS: being should be VERB but package outputted NOUN
+[19290] - Mismatch POS: closer should be ADV but package outputted ADJ
+[19305] - Mismatch POS: White should be PROPN but package outputted ADJ
+[19423] - Mismatch POS: booming should be ADJ but package outputted VERB
+[19443] - Mismatch POS: Elder should be ADJ but package outputted PROPN
+[19450] - Mismatch POS: catching should be ADJ but package outputted VERB
+[19472] - Mismatch POS: dpa should be PROPN but package outputted NOUN
+[19510] - Mismatch POS: not should be ADV but package outputted PART
+[19607] - Mismatch POS: Democrat should be PROPN but package outputted ADJ
+[19609] - Mismatch POS: were should be VERB but package outputted AUX
+[19619] - Mismatch POS: be should be VERB but package outputted AUX
+[19632] - Mismatch POS: somebody should be NOUN but package outputted PRON
+[19633] - Mismatch token: should be ca but package outputted can't
+[19634] - Mismatch token: should be n't but package outputted handle
+[19635] - Mismatch token: should be handle but package outputted a
+[19636] - Mismatch token: should be a but package outputted Twitter
+[19637] - Mismatch token: should be Twitter but package outputted account
+[19638] - Mismatch token: should be account but package outputted ,
+[19639] - Mismatch token: should be , but package outputted they
+[19640] - Mismatch token: should be they but package outputted can't
+[19641] - Mismatch token: should be ca but package outputted handle
+[19642] - Mismatch token: should be n't but package outputted the
+[19643] - Mismatch token: should be handle but package outputted nuclear
+[19644] - Mismatch token: should be the but package outputted codes
+[19645] - Mismatch token: should be nuclear but package outputted ,
+[19646] - Mismatch token: should be codes but package outputted "
+[19647] - Mismatch token: should be , but package outputted Obama
+[19648] - Mismatch token: should be " but package outputted mocked
+[19649] - Mismatch token: should be Obama but package outputted .
+[19674] - Mismatch POS: United should be PROPN but package outputted ADJ
+[19719] - Mismatch token: should be AKP but package outputted AKP's
+[19720] - Mismatch token: should be 's but package outputted Islamic
+[19721] - Mismatch token: should be Islamic but package outputted conservatives
+[19722] - Mismatch token: should be conservatives but package outputted have
+[19723] - Mismatch token: should be have but package outputted taken
+[19724] - Mismatch token: should be taken but package outputted this
+[19725] - Mismatch token: should be this but package outputted refusal
+[19726] - Mismatch token: should be refusal but package outputted as
+[19727] - Mismatch token: should be as but package outputted justification
+[19728] - Mismatch token: should be justification but package outputted for
+[19729] - Mismatch token: should be for but package outputted the
+[19730] - Mismatch token: should be the but package outputted questionings
+[19731] - Mismatch token: should be questionings but package outputted .
+[19761] - Mismatch POS: in should be ADP but package outputted SCONJ
+[19845] - Mismatch POS: of should be ADP but package outputted SCONJ
+[19925] - Mismatch POS: Force should be X but package outputted PROPN
+[19926] - Mismatch POS: Ouvrière should be X but package outputted PROPN
+[19944] - Mismatch POS: was should be AUX but package outputted VERB
+[19945] - Mismatch POS: n't should be ADV but package outputted PART
+[20012] - Mismatch POS: out should be ADV but package outputted ADP
+[20041] - Mismatch POS: working should be VERB but package outputted NOUN
+[20060] - Mismatch POS: working should be VERB but package outputted NOUN
+[20068] - Mismatch POS: more should be ADV but package outputted ADJ
+[20082] - Mismatch POS: is should be VERB but package outputted AUX
+[20236] - Mismatch POS: Catholic should be PROPN but package outputted ADJ
+[20282] - Mismatch token: should be can but package outputted cannot
+[20283] - Mismatch token: should be not but package outputted continue
+[20284] - Mismatch token: should be continue but package outputted with
+[20285] - Mismatch token: should be with but package outputted those
+[20286] - Mismatch token: should be those but package outputted who
+[20287] - Mismatch token: should be who but package outputted are
+[20288] - Mismatch token: should be are but package outputted completely
+[20289] - Mismatch token: should be completely but package outputted against
+[20290] - Mismatch token: should be against but package outputted Italy
+[20291] - Mismatch token: should be Italy but package outputted .
+[20380] - Mismatch POS: be should be AUX but package outputted VERB
+[20403] - Mismatch POS: be should be AUX but package outputted VERB
+[20411] - Mismatch POS: at should be ADV but package outputted ADP
+[20412] - Mismatch POS: least should be ADV but package outputted ADJ
+[20423] - Mismatch POS: is should be VERB but package outputted AUX
+[20507] - Mismatch POS: Mps should be PROPN but package outputted NOUN
+[20516] - Mismatch POS: that should be DET but package outputted PRON
+[20543] - Mismatch POS: for should be ADP but package outputted SCONJ
+[20684] - Mismatch POS: to should be SCONJ but package outputted PART
+[20731] - Mismatch POS: than should be SCONJ but package outputted ADP
+[20739] - Mismatch POS: more should be ADV but package outputted ADJ
+[20740] - Mismatch POS: than should be SCONJ but package outputted ADP
+[20801] - Mismatch POS: Community should be NOUN but package outputted PROPN
+[20841] - Mismatch token: should be acts but package outputted as
+[20842] - Mismatch token: should be as but package outputted spokesman
+[20843] - Mismatch token: should be spokesman but package outputted and
+[20844] - Mismatch token: should be and but package outputted Ángel
+[20845] - Mismatch token: should be Ángel but package outputted Pintado
+[20846] - Mismatch token: should be Pintado but package outputted as
+[20847] - Mismatch token: should be as but package outputted treasurer
+[20848] - Mismatch token: should be treasurer but package outputted .
+[20964] - Mismatch POS: Minister should be NOUN but package outputted PROPN
+[20966] - Mismatch POS: Defense should be NOUN but package outputted PROPN
+[20973] - Mismatch POS: Secretary should be NOUN but package outputted PROPN
+[21005] - Mismatch POS: not should be ADV but package outputted PART
+[21006] - Mismatch POS: everyone should be NOUN but package outputted PRON
+[21123] - Mismatch POS: out should be ADV but package outputted ADP
+[21147] - Mismatch POS: Indian should be PROPN but package outputted ADJ
+[21188] - Mismatch POS: slapstick should be NOUN but package outputted ADJ
+[21191] - Mismatch POS: not should be ADV but package outputted PART
+[21200] - Mismatch POS: nobody should be NOUN but package outputted PRON
+[21236] - Mismatch POS: bound should be VERB but package outputted ADJ
+[21327] - Mismatch POS: There should be DET but package outputted PRON
+[21329] - Mismatch POS: be should be AUX but package outputted VERB
+[21576] - Mismatch POS: is should be VERB but package outputted AUX
+[21612] - Mismatch POS: War should be NOUN but package outputted PROPN
+[21726] - Mismatch POS: been should be VERB but package outputted AUX
+[21826] - Mismatch POS: Ottoman should be PROPN but package outputted ADJ
+[21840] - Mismatch POS: Black should be PROPN but package outputted ADJ
+[21891] - Mismatch POS: BC should be ADV but package outputted NOUN
+[21901] - Mismatch POS: known should be ADJ but package outputted VERB
+[21911] - Mismatch POS: frozen should be ADJ but package outputted VERB
+[21917] - Mismatch POS: BC should be ADV but package outputted NOUN
+[21923] - Mismatch POS: were should be VERB but package outputted AUX
+[21960] - Mismatch POS: Court should be NOUN but package outputted PROPN
+[21963] - Mismatch POS: Assembly should be NOUN but package outputted PROPN
+[22046] - Mismatch POS: Olympic should be ADJ but package outputted PROPN
+[22073] - Mismatch POS: Industrial should be PROPN but package outputted ADJ
+[22078] - Mismatch POS: Great should be PROPN but package outputted ADJ
+[22122] - Mismatch POS: National should be PROPN but package outputted ADJ
+[22157] - Mismatch POS: Baltic should be PROPN but package outputted ADJ
+[22158] - Mismatch POS: States should be NOUN but package outputted PROPN
+[22193] - Mismatch POS: Compromise should be NOUN but package outputted PROPN
+[22255] - Mismatch POS: Years should be NOUN but package outputted PROPN
+[22257] - Mismatch POS: War should be NOUN but package outputted PROPN
+[22300] - Mismatch POS: Team should be NOUN but package outputted PROPN
+[22325] - Mismatch POS: Games should be NOUN but package outputted PROPN
+[22381] - Mismatch POS: were should be VERB but package outputted AUX
+[22453] - Mismatch POS: down should be ADP but package outputted ADV
+[22515] - Mismatch POS: those should be DET but package outputted PRON
+[22544] - Mismatch POS: 2000s should be NUM but package outputted NOUN
+[22546] - Mismatch POS: there should be DET but package outputted PRON
+[22599] - Mismatch POS: before should be ADP but package outputted SCONJ
+[22643] - Mismatch POS: This should be PRON but package outputted DET
+[22644] - Mismatch POS: drawing should be VERB but package outputted NOUN
+[22648] - Mismatch POS: founding should be ADJ but package outputted VERB
+[22658] - Mismatch POS: Roman should be PROPN but package outputted ADJ
+[22663] - Mismatch POS: maiorum should be X but package outputted NOUN
+[22702] - Mismatch POS: Dark should be PROPN but package outputted ADJ
+[22789] - Mismatch POS: off should be ADV but package outputted ADP
+[22804] - Mismatch POS: about should be ADV but package outputted ADP
+[22808] - Mismatch POS: BC should be NOUN but package outputted PROPN
+[22833] - Mismatch POS: Middle should be PROPN but package outputted ADJ
+[22839] - Mismatch POS: not should be ADV but package outputted PART
+[22858] - Mismatch POS: not should be ADV but package outputted PART
+[22863] - Mismatch POS: enough should be ADJ but package outputted ADV
+[22888] - Mismatch POS: not should be ADV but package outputted PART
+[22905] - Mismatch POS: starting should be ADJ but package outputted NOUN
+[22924] - Mismatch POS: - should be PUNCT but package outputted SYM
+[22930] - Mismatch POS: off should be ADV but package outputted ADP
+[22991] - Mismatch POS: was should be VERB but package outputted AUX
+[23032] - Mismatch POS: South should be ADJ but package outputted PROPN
+[23161] - Mismatch POS: Island should be NOUN but package outputted PROPN
+[23162] - Mismatch POS: have should be AUX but package outputted VERB
+[23191] - Mismatch POS: located should be ADJ but package outputted VERB
+[23196] - Mismatch POS: Australian should be PROPN but package outputted ADJ
+[23200] - Mismatch POS: Fault should be NOUN but package outputted PROPN
+[23258] - Mismatch POS: north should be ADJ but package outputted NOUN
+[23266] - Mismatch POS: next should be ADP but package outputted ADV
+[23316] - Mismatch POS: VI should be PROPN but package outputted NUM
+[23402] - Mismatch POS: Apulian should be PROPN but package outputted ADJ
+[23404] - Mismatch POS: Calabrian should be PROPN but package outputted ADJ
+[23405] - Mismatch POS: Royal should be PROPN but package outputted ADJ
+[23453] - Mismatch POS: Historian should be ADJ but package outputted NOUN
+[23487] - Mismatch POS: I should be PROPN but package outputted NUM
+[23504] - Mismatch POS: First should be PROPN but package outputted ADJ
+[23510] - Mismatch POS: to should be SCONJ but package outputted PART
+[23532] - Mismatch POS: not should be ADV but package outputted PART
+[23577] - Mismatch POS: British should be PROPN but package outputted ADJ
+[23621] - Mismatch POS: Prime should be PROPN but package outputted ADJ
+[23650] - Mismatch POS: Episcopal should be PROPN but package outputted ADJ
+[23659] - Mismatch POS: Protestant should be PROPN but package outputted ADJ
+[23691] - Mismatch POS: is should be VERB but package outputted AUX
+[23829] - Mismatch POS: on should be ADV but package outputted ADP
+[23898] - Mismatch POS: converted should be ADJ but package outputted VERB
+[23941] - Mismatch POS: called should be ADJ but package outputted VERB
+[24060] - Mismatch POS: up should be ADP but package outputted ADV
+[24117] - Mismatch POS: New should be PROPN but package outputted ADJ
+[24155] - Mismatch POS: British should be PROPN but package outputted ADJ
+[24213] - Mismatch POS: Spanish should be PROPN but package outputted ADJ
+[24251] - Mismatch POS: Spanish should be PROPN but package outputted ADJ
+[24293] - Mismatch POS: more should be ADV but package outputted ADJ
+[24450] - Mismatch POS: were should be VERB but package outputted AUX
+=========================================================
+Execution Completed: 1003 sentences parsed!
+        500 errors out of 20969 total tokens.
+        Error rate: 2.4%
