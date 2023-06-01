@@ -1,7 +1,8 @@
 # nlp-package-evaluator
 Evaluates Stanford NLP's Stanza package on Universal Dependencies Treebank data, provided in CoNLL-U format.
 
-To run: `python3 eval_f1.py`  
+To run: `pip install stanza`
+`python3 eval_f1.py`  
   
 Ensure treebank data is provided in data directory  
   
